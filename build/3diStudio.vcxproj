@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\src;E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.4.341.1/Include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -111,10 +111,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\src;E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\src;E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -141,7 +141,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\src;E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.4.341.1/Include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -167,10 +167,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\src;E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\src;E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -197,7 +197,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\src;E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.4.341.1/Include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -223,10 +223,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\src;E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\src;E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -253,7 +253,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\src;E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.4.341.1/Include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -278,10 +278,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\src;E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\AIProject\3diStudio\src;E:\AIProject\3diStudio\glfw\include;E:\AIProject\3diStudio\glm;C:\VulkanSDK\1.4.341.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -364,9 +364,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\AIProject\3diStudio\src\VulkanApp.cpp" />
-    <ClCompile Include="E:\AIProject\3diStudio\src\Window.cpp" />
+    <ClCompile Include="E:\AIProject\3diStudio\src\app\VulkanApp.cpp" />
     <ClCompile Include="E:\AIProject\3diStudio\src\main.cpp" />
+    <ClCompile Include="E:\AIProject\3diStudio\src\window\Window.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

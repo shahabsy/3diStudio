@@ -36,3 +36,26 @@ Rendering Focus	       Primary	                 Secondary
 Editor Integration     Required	                 Optional
 Physics	               Minimal	                 Extensive
 Asset Pipeline	       Direct Loading	         Cooked Data
+
+Add build process here
+Build Steps
+powershell
+
+Insert
+
+Copy
+# Clone repository (when applicable)
+git clone https://github.com/your-repo/3diStudio.git
+cd 3diStudio
+
+
+# Configure (Debug build)
+mkdir build
+cd build
+cmake .. -G "Visual Studio 17 2022" -A x64
+
+# Compile
+cmake --build .
+
+# Alternative: Release build
+cmake --build .

@@ -1,5 +1,5 @@
-#include "Window.h"
-#include "VulkanApp.h"
+#include "window/Window.h"
+#include "app/VulkanApp.h"
 #include <iostream>
 
 int main() {

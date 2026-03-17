@@ -13,6 +13,7 @@ find_package(Vulkan REQUIRED)
 add_subdirectory(glfw)
 
 include_directories(
+    src
     glfw/include
     glm
     ${Vulkan_INCLUDE_DIR}
