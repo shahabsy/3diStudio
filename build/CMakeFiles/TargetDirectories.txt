@@ -1,0 +1,11 @@
+E:/AIProject/3diStudio/build/CMakeFiles/3diStudio.dir
+E:/AIProject/3diStudio/build/CMakeFiles/INSTALL.dir
+E:/AIProject/3diStudio/build/CMakeFiles/ALL_BUILD.dir
+E:/AIProject/3diStudio/build/CMakeFiles/ZERO_CHECK.dir
+E:/AIProject/3diStudio/build/glfw/CMakeFiles/uninstall.dir
+E:/AIProject/3diStudio/build/glfw/CMakeFiles/INSTALL.dir
+E:/AIProject/3diStudio/build/glfw/CMakeFiles/ALL_BUILD.dir
+E:/AIProject/3diStudio/build/glfw/src/CMakeFiles/glfw.dir
+E:/AIProject/3diStudio/build/glfw/src/CMakeFiles/update_mappings.dir
+E:/AIProject/3diStudio/build/glfw/src/CMakeFiles/INSTALL.dir
+E:/AIProject/3diStudio/build/glfw/docs/CMakeFiles/INSTALL.dir

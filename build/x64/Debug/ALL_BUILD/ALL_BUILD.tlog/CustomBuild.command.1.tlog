@@ -1,0 +1,10 @@
+^E:\AIPROJECT\3DISTUDIO\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/AIProject/3diStudio -BE:/AIProject/3diStudio/build --check-stamp-file E:/AIProject/3diStudio/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

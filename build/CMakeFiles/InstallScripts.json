@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/AIProject/3diStudio/build/cmake_install.cmake",
+		"E:/AIProject/3diStudio/build/glfw/cmake_install.cmake",
+		"E:/AIProject/3diStudio/build/glfw/src/cmake_install.cmake",
+		"E:/AIProject/3diStudio/build/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

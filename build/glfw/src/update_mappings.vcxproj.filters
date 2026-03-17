@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\AIProject\3diStudio\build\CMakeFiles\eac87ea111385dda7ca5f26576194c92\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\AIProject\3diStudio\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\AIProject\3diStudio\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\AIProject\3diStudio\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="E:\AIProject\3diStudio\build\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6D85A5A3-EAE4-3F0A-881F-1287067CD3F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AEAE9DB7-1C22-3C58-9F95-E5BA9A61D6CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

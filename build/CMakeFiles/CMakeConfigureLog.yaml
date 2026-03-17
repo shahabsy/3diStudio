@@ -1,0 +1,2076 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\QuickTime\\QTSystem\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\w64devkit\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.40+3e7442088 for .NET Framework
+      Build started 3/18/2026 1:20:34 AM.
+      
+      Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\AIProject\\3diStudio\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.36
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/AIProject/3diStudio/build/CMakeFiles/4.1.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/w64devkit/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\QuickTime\\QTSystem\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\w64devkit\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/w64devkit/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ffmpeg/bin/lld-link.com"
+      - "C:/ffmpeg/bin/lld-link.exe"
+      - "C:/ffmpeg/bin/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/lld-link.com"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/lld-link.exe"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/GitHub CLI/lld-link.com"
+      - "C:/Program Files/GitHub CLI/lld-link.exe"
+      - "C:/Program Files/GitHub CLI/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/w64devkit/bin/lld-link.com"
+      - "C:/w64devkit/bin/lld-link.exe"
+      - "C:/w64devkit/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\QuickTime\\QTSystem\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\w64devkit\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/w64devkit/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\QuickTime\\QTSystem\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\w64devkit\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/w64devkit/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/mt.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/mt.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/Common Files/Autodesk Shared/mt.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/mt.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/mt"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/mt"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/ffmpeg/bin/mt.com"
+      - "C:/ffmpeg/bin/mt.exe"
+      - "C:/ffmpeg/bin/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/mt.com"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/mt.exe"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/GitHub CLI/mt.com"
+      - "C:/Program Files/GitHub CLI/mt.exe"
+      - "C:/Program Files/GitHub CLI/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/w64devkit/bin/mt.com"
+      - "C:/w64devkit/bin/mt.exe"
+      - "C:/w64devkit/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\QuickTime\\QTSystem\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\w64devkit\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/w64devkit/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\QuickTime\\QTSystem\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\w64devkit\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\QuickTime\\QTSystem\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\w64devkit\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.40+3e7442088 for .NET Framework
+      Build started 3/18/2026 1:20:35 AM.
+      
+      Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\AIProject\\3diStudio\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.38
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/AIProject/3diStudio/build/CMakeFiles/4.1.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/w64devkit/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ffmpeg/bin/lld-link.com"
+      - "C:/ffmpeg/bin/lld-link.exe"
+      - "C:/ffmpeg/bin/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/lld-link.com"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/lld-link.exe"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/GitHub CLI/lld-link.com"
+      - "C:/Program Files/GitHub CLI/lld-link.exe"
+      - "C:/Program Files/GitHub CLI/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/w64devkit/bin/lld-link.com"
+      - "C:/w64devkit/bin/lld-link.exe"
+      - "C:/w64devkit/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\QuickTime\\QTSystem\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\w64devkit\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:573 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:546 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/w64devkit/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/3diStudio/bin/"
+      - "C:/Program Files (x86)/3diStudio/sbin/"
+      - "C:/Program Files (x86)/3diStudio/"
+    searched_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/rc.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/rc.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/rc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/rc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/Common Files/Autodesk Shared/rc.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/rc.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/rc"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/rc"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/ffmpeg/bin/rc.com"
+      - "C:/ffmpeg/bin/rc.exe"
+      - "C:/ffmpeg/bin/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/rc.com"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/rc.exe"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/GitHub CLI/rc.com"
+      - "C:/Program Files/GitHub CLI/rc.exe"
+      - "C:/Program Files/GitHub CLI/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/w64devkit/bin/rc.com"
+      - "C:/w64devkit/bin/rc.exe"
+      - "C:/w64devkit/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/3diStudio/bin/rc.com"
+      - "C:/Program Files (x86)/3diStudio/bin/rc.exe"
+      - "C:/Program Files (x86)/3diStudio/bin/rc"
+      - "C:/Program Files (x86)/3diStudio/sbin/rc.com"
+      - "C:/Program Files (x86)/3diStudio/sbin/rc.exe"
+      - "C:/Program Files (x86)/3diStudio/sbin/rc"
+      - "C:/Program Files (x86)/3diStudio/rc.com"
+      - "C:/Program Files (x86)/3diStudio/rc.exe"
+      - "C:/Program Files (x86)/3diStudio/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\QuickTime\\QTSystem\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\w64devkit\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/3diStudio"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/3diStudio"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-3s400n"
+      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-3s400n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-3s400n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_baa14.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.40+3e7442088 for .NET Framework
+        Build started 3/18/2026 1:20:35 AM.
+        
+        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3s400n\\cmTC_baa14.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_baa14.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3s400n\\Debug\\".
+          Creating directory "cmTC_baa14.dir\\Debug\\cmTC_baa14.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_baa14.dir\\Debug\\cmTC_baa14.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_baa14.dir\\Debug\\cmTC_baa14.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_baa14.dir\\Debug\\\\" /Fd"cmTC_baa14.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35225 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_baa14.dir\\Debug\\\\" /Fd"cmTC_baa14.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3s400n\\Debug\\cmTC_baa14.exe" /INCREMENTAL /ILK:"cmTC_baa14.dir\\Debug\\cmTC_baa14.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-3s400n/Debug/cmTC_baa14.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-3s400n/Debug/cmTC_baa14.lib" /MACHINE:X64  /machine:x64 cmTC_baa14.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_baa14.vcxproj -> E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3s400n\\Debug\\cmTC_baa14.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_baa14.dir\\Debug\\cmTC_baa14.tlog\\unsuccessfulbuild".
+          Touching "cmTC_baa14.dir\\Debug\\cmTC_baa14.tlog\\cmTC_baa14.lastbuildstate".
+        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3s400n\\cmTC_baa14.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35225.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-37mrha"
+      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-37mrha"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-37mrha'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ae093.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.40+3e7442088 for .NET Framework
+        Build started 3/18/2026 1:20:36 AM.
+        
+        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37mrha\\cmTC_ae093.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ae093.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37mrha\\Debug\\".
+          Creating directory "cmTC_ae093.dir\\Debug\\cmTC_ae093.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ae093.dir\\Debug\\cmTC_ae093.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ae093.dir\\Debug\\cmTC_ae093.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_ae093.dir\\Debug\\\\" /Fd"cmTC_ae093.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35225 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_ae093.dir\\Debug\\\\" /Fd"cmTC_ae093.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37mrha\\Debug\\cmTC_ae093.exe" /INCREMENTAL /ILK:"cmTC_ae093.dir\\Debug\\cmTC_ae093.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-37mrha/Debug/cmTC_ae093.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-37mrha/Debug/cmTC_ae093.lib" /MACHINE:X64  /machine:x64 cmTC_ae093.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_ae093.vcxproj -> E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37mrha\\Debug\\cmTC_ae093.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ae093.dir\\Debug\\cmTC_ae093.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ae093.dir\\Debug\\cmTC_ae093.tlog\\cmTC_ae093.lastbuildstate".
+        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37mrha\\cmTC_ae093.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35225.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindVulkan.cmake:402 (find_program)"
+      - "CMakeLists.txt:11 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslc"
+    candidate_directories:
+      - "/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/w64devkit/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/3diStudio/bin/"
+      - "C:/Program Files (x86)/3diStudio/sbin/"
+      - "C:/Program Files (x86)/3diStudio/"
+    searched_directories:
+      - "/bin/glslc.com"
+      - "/bin/glslc.exe"
+      - "/bin/glslc"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/glslc.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/glslc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/glslc"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/glslc.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/glslc.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/glslc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/glslc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/glslc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/glslc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/glslc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/glslc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/glslc"
+      - "C:/Windows/System32/glslc.com"
+      - "C:/Windows/System32/glslc.exe"
+      - "C:/Windows/System32/glslc"
+      - "C:/Windows/glslc.com"
+      - "C:/Windows/glslc.exe"
+      - "C:/Windows/glslc"
+      - "C:/Windows/System32/wbem/glslc.com"
+      - "C:/Windows/System32/wbem/glslc.exe"
+      - "C:/Windows/System32/wbem/glslc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc"
+      - "C:/Windows/System32/OpenSSH/glslc.com"
+      - "C:/Windows/System32/OpenSSH/glslc.exe"
+      - "C:/Windows/System32/OpenSSH/glslc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc"
+      - "C:/Program Files/Common Files/Autodesk Shared/glslc.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/glslc.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/glslc"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/glslc.com"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/glslc.exe"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/glslc"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/glslc.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/glslc.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/glslc"
+      - "C:/Program Files/dotnet/glslc.com"
+      - "C:/Program Files/dotnet/glslc.exe"
+      - "C:/Program Files/dotnet/glslc"
+      - "C:/Program Files/nodejs/glslc.com"
+      - "C:/Program Files/nodejs/glslc.exe"
+      - "C:/Program Files/nodejs/glslc"
+      - "C:/ffmpeg/bin/glslc.com"
+      - "C:/ffmpeg/bin/glslc.exe"
+      - "C:/ffmpeg/bin/glslc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslc"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/glslc.com"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/glslc.exe"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/glslc"
+      - "C:/Program Files/Git/cmd/glslc.com"
+      - "C:/Program Files/Git/cmd/glslc.exe"
+      - "C:/Program Files/Git/cmd/glslc"
+      - "C:/Program Files/GitHub CLI/glslc.com"
+      - "C:/Program Files/GitHub CLI/glslc.exe"
+      - "C:/Program Files/GitHub CLI/glslc"
+      - "C:/Program Files/CMake/bin/glslc.com"
+      - "C:/Program Files/CMake/bin/glslc.exe"
+      - "C:/Program Files/CMake/bin/glslc"
+      - "C:/w64devkit/bin/glslc.com"
+      - "C:/w64devkit/bin/glslc.exe"
+      - "C:/w64devkit/bin/glslc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc"
+      - "C:/Program Files/bin/glslc.com"
+      - "C:/Program Files/bin/glslc.exe"
+      - "C:/Program Files/bin/glslc"
+      - "C:/Program Files/sbin/glslc.com"
+      - "C:/Program Files/sbin/glslc.exe"
+      - "C:/Program Files/sbin/glslc"
+      - "C:/Program Files/glslc.com"
+      - "C:/Program Files/glslc.exe"
+      - "C:/Program Files/glslc"
+      - "C:/Program Files (x86)/bin/glslc.com"
+      - "C:/Program Files (x86)/bin/glslc.exe"
+      - "C:/Program Files (x86)/bin/glslc"
+      - "C:/Program Files (x86)/sbin/glslc.com"
+      - "C:/Program Files (x86)/sbin/glslc.exe"
+      - "C:/Program Files (x86)/sbin/glslc"
+      - "C:/Program Files (x86)/glslc.com"
+      - "C:/Program Files (x86)/glslc.exe"
+      - "C:/Program Files (x86)/glslc"
+      - "C:/Program Files/CMake/bin/glslc.com"
+      - "C:/Program Files/CMake/bin/glslc.exe"
+      - "C:/Program Files/CMake/bin/glslc"
+      - "C:/Program Files/CMake/sbin/glslc.com"
+      - "C:/Program Files/CMake/sbin/glslc.exe"
+      - "C:/Program Files/CMake/sbin/glslc"
+      - "C:/Program Files/CMake/glslc.com"
+      - "C:/Program Files/CMake/glslc.exe"
+      - "C:/Program Files/CMake/glslc"
+      - "C:/Program Files (x86)/3diStudio/bin/glslc.com"
+      - "C:/Program Files (x86)/3diStudio/bin/glslc.exe"
+      - "C:/Program Files (x86)/3diStudio/bin/glslc"
+      - "C:/Program Files (x86)/3diStudio/sbin/glslc.com"
+      - "C:/Program Files (x86)/3diStudio/sbin/glslc.exe"
+      - "C:/Program Files (x86)/3diStudio/sbin/glslc"
+      - "C:/Program Files (x86)/3diStudio/glslc.com"
+      - "C:/Program Files (x86)/3diStudio/glslc.exe"
+      - "C:/Program Files (x86)/3diStudio/glslc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\QuickTime\\QTSystem\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\w64devkit\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/3diStudio"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/3diStudio"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindVulkan.cmake:410 (find_program)"
+      - "CMakeLists.txt:11 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslangValidator"
+    candidate_directories:
+      - "/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/w64devkit/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/3diStudio/bin/"
+      - "C:/Program Files (x86)/3diStudio/sbin/"
+      - "C:/Program Files (x86)/3diStudio/"
+    searched_directories:
+      - "/bin/glslangValidator.com"
+      - "/bin/glslangValidator.exe"
+      - "/bin/glslangValidator"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/glslangValidator"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/glslangValidator.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/glslangValidator.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/glslangValidator"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/glslangValidator.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/glslangValidator.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/glslangValidator"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/glslangValidator.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/glslangValidator.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/glslangValidator"
+      - "C:/Windows/System32/glslangValidator.com"
+      - "C:/Windows/System32/glslangValidator.exe"
+      - "C:/Windows/System32/glslangValidator"
+      - "C:/Windows/glslangValidator.com"
+      - "C:/Windows/glslangValidator.exe"
+      - "C:/Windows/glslangValidator"
+      - "C:/Windows/System32/wbem/glslangValidator.com"
+      - "C:/Windows/System32/wbem/glslangValidator.exe"
+      - "C:/Windows/System32/wbem/glslangValidator"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator"
+      - "C:/Windows/System32/OpenSSH/glslangValidator.com"
+      - "C:/Windows/System32/OpenSSH/glslangValidator.exe"
+      - "C:/Windows/System32/OpenSSH/glslangValidator"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator"
+      - "C:/Program Files/Common Files/Autodesk Shared/glslangValidator.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/glslangValidator.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/glslangValidator"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/glslangValidator.com"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/glslangValidator.exe"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/glslangValidator"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/glslangValidator.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/glslangValidator.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/glslangValidator"
+      - "C:/Program Files/dotnet/glslangValidator.com"
+      - "C:/Program Files/dotnet/glslangValidator.exe"
+      - "C:/Program Files/dotnet/glslangValidator"
+      - "C:/Program Files/nodejs/glslangValidator.com"
+      - "C:/Program Files/nodejs/glslangValidator.exe"
+      - "C:/Program Files/nodejs/glslangValidator"
+      - "C:/ffmpeg/bin/glslangValidator.com"
+      - "C:/ffmpeg/bin/glslangValidator.exe"
+      - "C:/ffmpeg/bin/glslangValidator"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslangValidator.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslangValidator.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslangValidator"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/glslangValidator.com"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/glslangValidator.exe"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/glslangValidator"
+      - "C:/Program Files/Git/cmd/glslangValidator.com"
+      - "C:/Program Files/Git/cmd/glslangValidator.exe"
+      - "C:/Program Files/Git/cmd/glslangValidator"
+      - "C:/Program Files/GitHub CLI/glslangValidator.com"
+      - "C:/Program Files/GitHub CLI/glslangValidator.exe"
+      - "C:/Program Files/GitHub CLI/glslangValidator"
+      - "C:/Program Files/CMake/bin/glslangValidator.com"
+      - "C:/Program Files/CMake/bin/glslangValidator.exe"
+      - "C:/Program Files/CMake/bin/glslangValidator"
+      - "C:/w64devkit/bin/glslangValidator.com"
+      - "C:/w64devkit/bin/glslangValidator.exe"
+      - "C:/w64devkit/bin/glslangValidator"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator"
+      - "C:/Program Files/bin/glslangValidator.com"
+      - "C:/Program Files/bin/glslangValidator.exe"
+      - "C:/Program Files/bin/glslangValidator"
+      - "C:/Program Files/sbin/glslangValidator.com"
+      - "C:/Program Files/sbin/glslangValidator.exe"
+      - "C:/Program Files/sbin/glslangValidator"
+      - "C:/Program Files/glslangValidator.com"
+      - "C:/Program Files/glslangValidator.exe"
+      - "C:/Program Files/glslangValidator"
+      - "C:/Program Files (x86)/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/bin/glslangValidator"
+      - "C:/Program Files (x86)/sbin/glslangValidator.com"
+      - "C:/Program Files (x86)/sbin/glslangValidator.exe"
+      - "C:/Program Files (x86)/sbin/glslangValidator"
+      - "C:/Program Files (x86)/glslangValidator.com"
+      - "C:/Program Files (x86)/glslangValidator.exe"
+      - "C:/Program Files (x86)/glslangValidator"
+      - "C:/Program Files/CMake/bin/glslangValidator.com"
+      - "C:/Program Files/CMake/bin/glslangValidator.exe"
+      - "C:/Program Files/CMake/bin/glslangValidator"
+      - "C:/Program Files/CMake/sbin/glslangValidator.com"
+      - "C:/Program Files/CMake/sbin/glslangValidator.exe"
+      - "C:/Program Files/CMake/sbin/glslangValidator"
+      - "C:/Program Files/CMake/glslangValidator.com"
+      - "C:/Program Files/CMake/glslangValidator.exe"
+      - "C:/Program Files/CMake/glslangValidator"
+      - "C:/Program Files (x86)/3diStudio/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/3diStudio/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/3diStudio/bin/glslangValidator"
+      - "C:/Program Files (x86)/3diStudio/sbin/glslangValidator.com"
+      - "C:/Program Files (x86)/3diStudio/sbin/glslangValidator.exe"
+      - "C:/Program Files (x86)/3diStudio/sbin/glslangValidator"
+      - "C:/Program Files (x86)/3diStudio/glslangValidator.com"
+      - "C:/Program Files (x86)/3diStudio/glslangValidator.exe"
+      - "C:/Program Files (x86)/3diStudio/glslangValidator"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\QuickTime\\QTSystem\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\w64devkit\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/3diStudio"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/3diStudio"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "glfw/CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-xvyso8"
+      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-xvyso8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/AIProject/3diStudio/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-xvyso8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b0225.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.40+3e7442088 for .NET Framework
+        Build started 3/18/2026 1:20:37 AM.
+        
+        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvyso8\\cmTC_b0225.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b0225.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvyso8\\Debug\\".
+          Creating directory "cmTC_b0225.dir\\Debug\\cmTC_b0225.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b0225.dir\\Debug\\cmTC_b0225.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b0225.dir\\Debug\\cmTC_b0225.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b0225.dir\\Debug\\\\" /Fd"cmTC_b0225.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvyso8\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35225 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b0225.dir\\Debug\\\\" /Fd"cmTC_b0225.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvyso8\\src.c"
+          src.c
+        E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvyso8\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvyso8\\cmTC_b0225.vcxproj]
+        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvyso8\\cmTC_b0225.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvyso8\\cmTC_b0225.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvyso8\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvyso8\\cmTC_b0225.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.22
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "glfw/CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-pcdllt"
+      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-pcdllt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/AIProject/3diStudio/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-pcdllt'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a246f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.40+3e7442088 for .NET Framework
+        Build started 3/18/2026 1:20:37 AM.
+        
+        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcdllt\\cmTC_a246f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a246f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcdllt\\Debug\\".
+          Creating directory "cmTC_a246f.dir\\Debug\\cmTC_a246f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a246f.dir\\Debug\\cmTC_a246f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a246f.dir\\Debug\\cmTC_a246f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_a246f.dir\\Debug\\\\" /Fd"cmTC_a246f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcdllt\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35225 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_a246f.dir\\Debug\\\\" /Fd"cmTC_a246f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcdllt\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcdllt\\Debug\\cmTC_a246f.exe" /INCREMENTAL /ILK:"cmTC_a246f.dir\\Debug\\cmTC_a246f.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-pcdllt/Debug/cmTC_a246f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-pcdllt/Debug/cmTC_a246f.lib" /MACHINE:X64  /machine:x64 cmTC_a246f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcdllt\\cmTC_a246f.vcxproj]
+        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcdllt\\cmTC_a246f.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcdllt\\cmTC_a246f.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pcdllt\\cmTC_a246f.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "glfw/CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-l0orif"
+      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-l0orif"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/AIProject/3diStudio/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-l0orif'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3c51c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.40+3e7442088 for .NET Framework
+        Build started 3/18/2026 1:20:37 AM.
+        
+        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l0orif\\cmTC_3c51c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3c51c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l0orif\\Debug\\".
+          Creating directory "cmTC_3c51c.dir\\Debug\\cmTC_3c51c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3c51c.dir\\Debug\\cmTC_3c51c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3c51c.dir\\Debug\\cmTC_3c51c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_3c51c.dir\\Debug\\\\" /Fd"cmTC_3c51c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l0orif\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35225 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_3c51c.dir\\Debug\\\\" /Fd"cmTC_3c51c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l0orif\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l0orif\\Debug\\cmTC_3c51c.exe" /INCREMENTAL /ILK:"cmTC_3c51c.dir\\Debug\\cmTC_3c51c.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-l0orif/Debug/cmTC_3c51c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-l0orif/Debug/cmTC_3c51c.lib" /MACHINE:X64  /machine:x64 cmTC_3c51c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l0orif\\cmTC_3c51c.vcxproj]
+        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l0orif\\cmTC_3c51c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l0orif\\cmTC_3c51c.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l0orif\\cmTC_3c51c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.27
+        
+      exitCode: 1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindDoxygen.cmake:753 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindDoxygen.cmake:937 (_Doxygen_find_doxygen)"
+      - "glfw/docs/CMakeLists.txt:39 (find_package)"
+    mode: "program"
+    variable: "DOXYGEN_EXECUTABLE"
+    description: "Doxygen documentation generation tool (https://www.doxygen.nl)"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "doxygen"
+    candidate_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ffmpeg/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/w64devkit/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/3diStudio/bin/"
+      - "C:/Program Files (x86)/3diStudio/sbin/"
+      - "C:/Program Files (x86)/3diStudio/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/Applications/Doxygen.app/Contents/Resources/"
+      - "/Applications/Doxygen.app/Contents/MacOS/"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
+    searched_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/doxygen.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/doxygen.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/doxygen"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/doxygen.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/doxygen.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/doxygen"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/doxygen.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/doxygen.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/doxygen"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/doxygen.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/doxygen.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/doxygen"
+      - "C:/Windows/System32/doxygen.com"
+      - "C:/Windows/System32/doxygen.exe"
+      - "C:/Windows/System32/doxygen"
+      - "C:/Windows/doxygen.com"
+      - "C:/Windows/doxygen.exe"
+      - "C:/Windows/doxygen"
+      - "C:/Windows/System32/wbem/doxygen.com"
+      - "C:/Windows/System32/wbem/doxygen.exe"
+      - "C:/Windows/System32/wbem/doxygen"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen"
+      - "C:/Windows/System32/OpenSSH/doxygen.com"
+      - "C:/Windows/System32/OpenSSH/doxygen.exe"
+      - "C:/Windows/System32/OpenSSH/doxygen"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen"
+      - "C:/Program Files/Common Files/Autodesk Shared/doxygen.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/doxygen.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/doxygen"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/doxygen.com"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/doxygen.exe"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/doxygen"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/doxygen.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/doxygen.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/doxygen"
+      - "C:/Program Files/dotnet/doxygen.com"
+      - "C:/Program Files/dotnet/doxygen.exe"
+      - "C:/Program Files/dotnet/doxygen"
+      - "C:/Program Files/nodejs/doxygen.com"
+      - "C:/Program Files/nodejs/doxygen.exe"
+      - "C:/Program Files/nodejs/doxygen"
+      - "C:/ffmpeg/bin/doxygen.com"
+      - "C:/ffmpeg/bin/doxygen.exe"
+      - "C:/ffmpeg/bin/doxygen"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/doxygen.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/doxygen.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/doxygen"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/doxygen.com"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/doxygen.exe"
+      - "C:/Program Files (x86)/QuickTime/QTSystem/doxygen"
+      - "C:/Program Files/Git/cmd/doxygen.com"
+      - "C:/Program Files/Git/cmd/doxygen.exe"
+      - "C:/Program Files/Git/cmd/doxygen"
+      - "C:/Program Files/GitHub CLI/doxygen.com"
+      - "C:/Program Files/GitHub CLI/doxygen.exe"
+      - "C:/Program Files/GitHub CLI/doxygen"
+      - "C:/Program Files/CMake/bin/doxygen.com"
+      - "C:/Program Files/CMake/bin/doxygen.exe"
+      - "C:/Program Files/CMake/bin/doxygen"
+      - "C:/w64devkit/bin/doxygen.com"
+      - "C:/w64devkit/bin/doxygen.exe"
+      - "C:/w64devkit/bin/doxygen"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen"
+      - "C:/Program Files/bin/doxygen.com"
+      - "C:/Program Files/bin/doxygen.exe"
+      - "C:/Program Files/bin/doxygen"
+      - "C:/Program Files/sbin/doxygen.com"
+      - "C:/Program Files/sbin/doxygen.exe"
+      - "C:/Program Files/sbin/doxygen"
+      - "C:/Program Files/doxygen.com"
+      - "C:/Program Files/doxygen.exe"
+      - "C:/Program Files/doxygen"
+      - "C:/Program Files (x86)/bin/doxygen.com"
+      - "C:/Program Files (x86)/bin/doxygen.exe"
+      - "C:/Program Files (x86)/bin/doxygen"
+      - "C:/Program Files (x86)/sbin/doxygen.com"
+      - "C:/Program Files (x86)/sbin/doxygen.exe"
+      - "C:/Program Files (x86)/sbin/doxygen"
+      - "C:/Program Files (x86)/doxygen.com"
+      - "C:/Program Files (x86)/doxygen.exe"
+      - "C:/Program Files (x86)/doxygen"
+      - "C:/Program Files/CMake/bin/doxygen.com"
+      - "C:/Program Files/CMake/bin/doxygen.exe"
+      - "C:/Program Files/CMake/bin/doxygen"
+      - "C:/Program Files/CMake/sbin/doxygen.com"
+      - "C:/Program Files/CMake/sbin/doxygen.exe"
+      - "C:/Program Files/CMake/sbin/doxygen"
+      - "C:/Program Files/CMake/doxygen.com"
+      - "C:/Program Files/CMake/doxygen.exe"
+      - "C:/Program Files/CMake/doxygen"
+      - "C:/Program Files (x86)/3diStudio/bin/doxygen.com"
+      - "C:/Program Files (x86)/3diStudio/bin/doxygen.exe"
+      - "C:/Program Files (x86)/3diStudio/bin/doxygen"
+      - "C:/Program Files (x86)/3diStudio/sbin/doxygen.com"
+      - "C:/Program Files (x86)/3diStudio/sbin/doxygen.exe"
+      - "C:/Program Files (x86)/3diStudio/sbin/doxygen"
+      - "C:/Program Files (x86)/3diStudio/doxygen.com"
+      - "C:/Program Files (x86)/3diStudio/doxygen.exe"
+      - "C:/Program Files (x86)/3diStudio/doxygen"
+      - "/REGISTRY-NOTFOUND/bin/doxygen.com"
+      - "/REGISTRY-NOTFOUND/bin/doxygen.exe"
+      - "/REGISTRY-NOTFOUND/bin/doxygen"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen.com"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen.exe"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen.com"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen.exe"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen.com"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen.exe"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen.com"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen.exe"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.0\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\QuickTime\\QTSystem\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\w64devkit\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/3diStudio"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/3diStudio"
+...
