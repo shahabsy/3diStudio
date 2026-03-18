@@ -1,24 +1,20 @@
-#include "window/Window.h"
 #include "app/VulkanApp.h"
 #include <iostream>
 
 int main() {
-    Window window;
-    VulkanApp app;
-
     try {
-        window.create(1200, 720, "Vulkan Window");
-        app.init(window);
-
-        while (!window.shouldClose()) {
-            window.pollEvents();
-        }
-        app.cleanup();
-        window.destroy();
+        std::cout << "[APP] Starting 3diStudio..." << std::endl;
+        VulkanApp app;
+        app.run();
+        std::cout << "[APP] Exited normally" << std::endl;
     } catch (const std::exception& e) {
-        std::cerr << "Error: " << e.what() << std::endl;
+        std::cerr << "[ERROR] " << e.what() << std::endl;
+        std::cout << "Press Enter to close..." << std::endl;
+        std::cin.get();
         return EXIT_FAILURE;
     }
-
+    
+    std::cout << "Press Enter to close..." << std::endl;
+    std::cin.get();
     return EXIT_SUCCESS;
 }

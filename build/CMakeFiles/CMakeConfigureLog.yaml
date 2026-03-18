@@ -35,6 +35,7 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.341.1\\Bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
@@ -63,6 +64,16 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\w64devkit\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\pc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\pc\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\pc\\.dotnet\\tools"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Comate\\bin"
+        - "c:\\Users\\pc\\.comate\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -79,7 +90,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.40+3e7442088 for .NET Framework
-      Build started 3/18/2026 3:33:25 AM.
+      Build started 3/18/2026 7:14:36 AM.
       
       Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -108,7 +119,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.37
+      Time Elapsed 00:00:00.38
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -141,6 +152,7 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files/Oculus/Support/oculus-runtime/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
@@ -164,11 +176,22 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/w64devkit/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/pc/AppData/Roaming/npm/"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/pc/.dotnet/tools/"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.341.1\\Bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
@@ -197,6 +220,16 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\w64devkit\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\pc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\pc\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\pc\\.dotnet\\tools"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Comate\\bin"
+        - "c:\\Users\\pc\\.comate\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -220,6 +253,7 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files/Oculus/Support/oculus-runtime/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
@@ -243,10 +277,23 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/w64devkit/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/pc/AppData/Roaming/npm/"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/pc/.dotnet/tools/"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/VulkanSDK/1.4.341.1/Bin/lld-link.com"
+      - "C:/VulkanSDK/1.4.341.1/Bin/lld-link.exe"
+      - "C:/VulkanSDK/1.4.341.1/Bin/lld-link"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
@@ -316,9 +363,40 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/pc/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/pc/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/pc/AppData/Roaming/npm/lld-link"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/lld-link.com"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/lld-link.exe"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/lld-link"
+      - "C:/Users/pc/.dotnet/tools/lld-link.com"
+      - "C:/Users/pc/.dotnet/tools/lld-link.exe"
+      - "C:/Users/pc/.dotnet/tools/lld-link"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/lld-link.com"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/lld-link.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/lld-link"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.341.1\\Bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
@@ -347,6 +425,16 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\w64devkit\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\pc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\pc\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\pc\\.dotnet\\tools"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Comate\\bin"
+        - "c:\\Users\\pc\\.comate\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -368,6 +456,7 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files/Oculus/Support/oculus-runtime/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
@@ -391,11 +480,22 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/w64devkit/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/pc/AppData/Roaming/npm/"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/pc/.dotnet/tools/"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.341.1\\Bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
@@ -424,6 +524,16 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\w64devkit\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\pc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\pc\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\pc\\.dotnet\\tools"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Comate\\bin"
+        - "c:\\Users\\pc\\.comate\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -445,6 +555,7 @@ events:
       - "mt"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files/Oculus/Support/oculus-runtime/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
@@ -468,10 +579,23 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/w64devkit/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/pc/AppData/Roaming/npm/"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/pc/.dotnet/tools/"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/VulkanSDK/1.4.341.1/Bin/mt.com"
+      - "C:/VulkanSDK/1.4.341.1/Bin/mt.exe"
+      - "C:/VulkanSDK/1.4.341.1/Bin/mt"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt.com"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt.exe"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mt"
@@ -541,9 +665,40 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/mt"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/mt.com"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/mt.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/mt"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/pc/AppData/Roaming/npm/mt.com"
+      - "C:/Users/pc/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/pc/AppData/Roaming/npm/mt"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/mt.com"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/mt.exe"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/mt"
+      - "C:/Users/pc/.dotnet/tools/mt.com"
+      - "C:/Users/pc/.dotnet/tools/mt.exe"
+      - "C:/Users/pc/.dotnet/tools/mt"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/mt.com"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/mt.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/mt"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt.com"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt.exe"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt"
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.341.1\\Bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
@@ -572,6 +727,16 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\w64devkit\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\pc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\pc\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\pc\\.dotnet\\tools"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Comate\\bin"
+        - "c:\\Users\\pc\\.comate\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -593,6 +758,7 @@ events:
       - "lib"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files/Oculus/Support/oculus-runtime/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
@@ -616,11 +782,22 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/w64devkit/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/pc/AppData/Roaming/npm/"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/pc/.dotnet/tools/"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.341.1\\Bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
@@ -649,6 +826,16 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\w64devkit\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\pc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\pc\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\pc\\.dotnet\\tools"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Comate\\bin"
+        - "c:\\Users\\pc\\.comate\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -676,6 +863,7 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.341.1\\Bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
@@ -704,6 +892,16 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\w64devkit\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\pc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\pc\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\pc\\.dotnet\\tools"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Comate\\bin"
+        - "c:\\Users\\pc\\.comate\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -720,7 +918,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.40+3e7442088 for .NET Framework
-      Build started 3/18/2026 3:33:26 AM.
+      Build started 3/18/2026 7:14:37 AM.
       
       Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -782,6 +980,7 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files/Oculus/Support/oculus-runtime/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
@@ -805,10 +1004,23 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/w64devkit/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/pc/AppData/Roaming/npm/"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/pc/.dotnet/tools/"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/VulkanSDK/1.4.341.1/Bin/lld-link.com"
+      - "C:/VulkanSDK/1.4.341.1/Bin/lld-link.exe"
+      - "C:/VulkanSDK/1.4.341.1/Bin/lld-link"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.com"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link.exe"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/lld-link"
@@ -878,9 +1090,40 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/pc/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/pc/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/pc/AppData/Roaming/npm/lld-link"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/lld-link.com"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/lld-link.exe"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/lld-link"
+      - "C:/Users/pc/.dotnet/tools/lld-link.com"
+      - "C:/Users/pc/.dotnet/tools/lld-link.exe"
+      - "C:/Users/pc/.dotnet/tools/lld-link"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/lld-link.com"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/lld-link.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/lld-link"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.341.1\\Bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
@@ -909,6 +1152,16 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\w64devkit\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\pc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\pc\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\pc\\.dotnet\\tools"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Comate\\bin"
+        - "c:\\Users\\pc\\.comate\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -932,6 +1185,7 @@ events:
     names:
       - "rc"
     candidate_directories:
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files/Oculus/Support/oculus-runtime/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
@@ -955,6 +1209,16 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/w64devkit/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/pc/AppData/Roaming/npm/"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/pc/.dotnet/tools/"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -968,6 +1232,9 @@ events:
       - "C:/Program Files (x86)/3diStudio/sbin/"
       - "C:/Program Files (x86)/3diStudio/"
     searched_directories:
+      - "C:/VulkanSDK/1.4.341.1/Bin/rc.com"
+      - "C:/VulkanSDK/1.4.341.1/Bin/rc.exe"
+      - "C:/VulkanSDK/1.4.341.1/Bin/rc"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc.com"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc.exe"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/rc"
@@ -1037,6 +1304,36 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/rc"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/rc.com"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/rc.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/rc"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/pc/AppData/Roaming/npm/rc.com"
+      - "C:/Users/pc/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/pc/AppData/Roaming/npm/rc"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/rc.com"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/rc.exe"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/rc"
+      - "C:/Users/pc/.dotnet/tools/rc.com"
+      - "C:/Users/pc/.dotnet/tools/rc.exe"
+      - "C:/Users/pc/.dotnet/tools/rc"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/rc.com"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/rc.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/rc"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc.com"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc.exe"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc"
       - "C:/Program Files/bin/rc.com"
       - "C:/Program Files/bin/rc.exe"
       - "C:/Program Files/bin/rc"
@@ -1076,6 +1373,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.341.1\\Bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
@@ -1104,6 +1402,16 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\w64devkit\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\pc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\pc\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\pc\\.dotnet\\tools"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Comate\\bin"
+        - "c:\\Users\\pc\\.comate\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/3diStudio"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1119,8 +1427,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-dhm9tz"
-      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-dhm9tz"
+      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-njuoih"
+      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-njuoih"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1129,40 +1437,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-dhm9tz'
+        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-njuoih'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fd2f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b0185.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 3/18/2026 3:33:26 AM.
+        Build started 3/18/2026 7:14:37 AM.
         
-        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dhm9tz\\cmTC_fd2f5.vcxproj" on node 1 (default targets).
+        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-njuoih\\cmTC_b0185.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_fd2f5.dir\\Debug\\".
+          Creating directory "cmTC_b0185.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dhm9tz\\Debug\\".
-          Creating directory "cmTC_fd2f5.dir\\Debug\\cmTC_fd2f5.tlog\\".
+          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-njuoih\\Debug\\".
+          Creating directory "cmTC_b0185.dir\\Debug\\cmTC_b0185.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_fd2f5.dir\\Debug\\cmTC_fd2f5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_fd2f5.dir\\Debug\\cmTC_fd2f5.tlog\\unsuccessfulbuild".
+          Creating "cmTC_b0185.dir\\Debug\\cmTC_b0185.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b0185.dir\\Debug\\cmTC_b0185.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_fd2f5.dir\\Debug\\\\" /Fd"cmTC_fd2f5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b0185.dir\\Debug\\\\" /Fd"cmTC_b0185.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35225 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_fd2f5.dir\\Debug\\\\" /Fd"cmTC_fd2f5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b0185.dir\\Debug\\\\" /Fd"cmTC_b0185.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dhm9tz\\Debug\\cmTC_fd2f5.exe" /INCREMENTAL /ILK:"cmTC_fd2f5.dir\\Debug\\cmTC_fd2f5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-dhm9tz/Debug/cmTC_fd2f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-dhm9tz/Debug/cmTC_fd2f5.lib" /MACHINE:X64  /machine:x64 cmTC_fd2f5.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_fd2f5.vcxproj -> E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dhm9tz\\Debug\\cmTC_fd2f5.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-njuoih\\Debug\\cmTC_b0185.exe" /INCREMENTAL /ILK:"cmTC_b0185.dir\\Debug\\cmTC_b0185.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-njuoih/Debug/cmTC_b0185.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-njuoih/Debug/cmTC_b0185.lib" /MACHINE:X64  /machine:x64 cmTC_b0185.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_b0185.vcxproj -> E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-njuoih\\Debug\\cmTC_b0185.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_fd2f5.dir\\Debug\\cmTC_fd2f5.tlog\\unsuccessfulbuild".
-          Touching "cmTC_fd2f5.dir\\Debug\\cmTC_fd2f5.tlog\\cmTC_fd2f5.lastbuildstate".
-        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dhm9tz\\cmTC_fd2f5.vcxproj" (default targets).
+          Deleting file "cmTC_b0185.dir\\Debug\\cmTC_b0185.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b0185.dir\\Debug\\cmTC_b0185.tlog\\cmTC_b0185.lastbuildstate".
+        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-njuoih\\cmTC_b0185.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.35
+        Time Elapsed 00:00:00.36
         
       exitCode: 0
   -
@@ -1202,8 +1510,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-07ulfb"
-      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-07ulfb"
+      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-jgk9x8"
+      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-jgk9x8"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1213,34 +1521,34 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-07ulfb'
+        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-jgk9x8'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6c700.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_92cdd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 3/18/2026 3:33:27 AM.
+        Build started 3/18/2026 7:14:38 AM.
         
-        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07ulfb\\cmTC_6c700.vcxproj" on node 1 (default targets).
+        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgk9x8\\cmTC_92cdd.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_6c700.dir\\Debug\\".
+          Creating directory "cmTC_92cdd.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07ulfb\\Debug\\".
-          Creating directory "cmTC_6c700.dir\\Debug\\cmTC_6c700.tlog\\".
+          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgk9x8\\Debug\\".
+          Creating directory "cmTC_92cdd.dir\\Debug\\cmTC_92cdd.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_6c700.dir\\Debug\\cmTC_6c700.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_6c700.dir\\Debug\\cmTC_6c700.tlog\\unsuccessfulbuild".
+          Creating "cmTC_92cdd.dir\\Debug\\cmTC_92cdd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_92cdd.dir\\Debug\\cmTC_92cdd.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_6c700.dir\\Debug\\\\" /Fd"cmTC_6c700.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_92cdd.dir\\Debug\\\\" /Fd"cmTC_92cdd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35225 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_6c700.dir\\Debug\\\\" /Fd"cmTC_6c700.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_92cdd.dir\\Debug\\\\" /Fd"cmTC_92cdd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07ulfb\\Debug\\cmTC_6c700.exe" /INCREMENTAL /ILK:"cmTC_6c700.dir\\Debug\\cmTC_6c700.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-07ulfb/Debug/cmTC_6c700.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-07ulfb/Debug/cmTC_6c700.lib" /MACHINE:X64  /machine:x64 cmTC_6c700.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_6c700.vcxproj -> E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07ulfb\\Debug\\cmTC_6c700.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgk9x8\\Debug\\cmTC_92cdd.exe" /INCREMENTAL /ILK:"cmTC_92cdd.dir\\Debug\\cmTC_92cdd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-jgk9x8/Debug/cmTC_92cdd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-jgk9x8/Debug/cmTC_92cdd.lib" /MACHINE:X64  /machine:x64 cmTC_92cdd.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_92cdd.vcxproj -> E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgk9x8\\Debug\\cmTC_92cdd.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_6c700.dir\\Debug\\cmTC_6c700.tlog\\unsuccessfulbuild".
-          Touching "cmTC_6c700.dir\\Debug\\cmTC_6c700.tlog\\cmTC_6c700.lastbuildstate".
-        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07ulfb\\cmTC_6c700.vcxproj" (default targets).
+          Deleting file "cmTC_92cdd.dir\\Debug\\cmTC_92cdd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_92cdd.dir\\Debug\\cmTC_92cdd.tlog\\cmTC_92cdd.lastbuildstate".
+        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgk9x8\\cmTC_92cdd.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -1296,7 +1604,8 @@ events:
     names:
       - "glslc"
     candidate_directories:
-      - "/bin/"
+      - "C:/VulkanSDK/1.4.341.1/bin/"
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files/Oculus/Support/oculus-runtime/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
@@ -1320,6 +1629,16 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/w64devkit/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/pc/AppData/Roaming/npm/"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/pc/.dotnet/tools/"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1333,117 +1652,11 @@ events:
       - "C:/Program Files (x86)/3diStudio/sbin/"
       - "C:/Program Files (x86)/3diStudio/"
     searched_directories:
-      - "/bin/glslc.com"
-      - "/bin/glslc.exe"
-      - "/bin/glslc"
-      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/glslc.com"
-      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/glslc.exe"
-      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/glslc"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/glslc.com"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/glslc.exe"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/glslc"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/glslc.com"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/glslc.exe"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/glslc"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/glslc.com"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/glslc.exe"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/glslc"
-      - "C:/Windows/System32/glslc.com"
-      - "C:/Windows/System32/glslc.exe"
-      - "C:/Windows/System32/glslc"
-      - "C:/Windows/glslc.com"
-      - "C:/Windows/glslc.exe"
-      - "C:/Windows/glslc"
-      - "C:/Windows/System32/wbem/glslc.com"
-      - "C:/Windows/System32/wbem/glslc.exe"
-      - "C:/Windows/System32/wbem/glslc"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc"
-      - "C:/Windows/System32/OpenSSH/glslc.com"
-      - "C:/Windows/System32/OpenSSH/glslc.exe"
-      - "C:/Windows/System32/OpenSSH/glslc"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc"
-      - "C:/Program Files/Common Files/Autodesk Shared/glslc.com"
-      - "C:/Program Files/Common Files/Autodesk Shared/glslc.exe"
-      - "C:/Program Files/Common Files/Autodesk Shared/glslc"
-      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/glslc.com"
-      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/glslc.exe"
-      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/glslc"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/glslc.com"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/glslc.exe"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/glslc"
-      - "C:/Program Files/dotnet/glslc.com"
-      - "C:/Program Files/dotnet/glslc.exe"
-      - "C:/Program Files/dotnet/glslc"
-      - "C:/Program Files/nodejs/glslc.com"
-      - "C:/Program Files/nodejs/glslc.exe"
-      - "C:/Program Files/nodejs/glslc"
-      - "C:/ffmpeg/bin/glslc.com"
-      - "C:/ffmpeg/bin/glslc.exe"
-      - "C:/ffmpeg/bin/glslc"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslc.com"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslc.exe"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslc"
-      - "C:/Program Files (x86)/QuickTime/QTSystem/glslc.com"
-      - "C:/Program Files (x86)/QuickTime/QTSystem/glslc.exe"
-      - "C:/Program Files (x86)/QuickTime/QTSystem/glslc"
-      - "C:/Program Files/Git/cmd/glslc.com"
-      - "C:/Program Files/Git/cmd/glslc.exe"
-      - "C:/Program Files/Git/cmd/glslc"
-      - "C:/Program Files/GitHub CLI/glslc.com"
-      - "C:/Program Files/GitHub CLI/glslc.exe"
-      - "C:/Program Files/GitHub CLI/glslc"
-      - "C:/Program Files/CMake/bin/glslc.com"
-      - "C:/Program Files/CMake/bin/glslc.exe"
-      - "C:/Program Files/CMake/bin/glslc"
-      - "C:/w64devkit/bin/glslc.com"
-      - "C:/w64devkit/bin/glslc.exe"
-      - "C:/w64devkit/bin/glslc"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc"
-      - "C:/Program Files/bin/glslc.com"
-      - "C:/Program Files/bin/glslc.exe"
-      - "C:/Program Files/bin/glslc"
-      - "C:/Program Files/sbin/glslc.com"
-      - "C:/Program Files/sbin/glslc.exe"
-      - "C:/Program Files/sbin/glslc"
-      - "C:/Program Files/glslc.com"
-      - "C:/Program Files/glslc.exe"
-      - "C:/Program Files/glslc"
-      - "C:/Program Files (x86)/bin/glslc.com"
-      - "C:/Program Files (x86)/bin/glslc.exe"
-      - "C:/Program Files (x86)/bin/glslc"
-      - "C:/Program Files (x86)/sbin/glslc.com"
-      - "C:/Program Files (x86)/sbin/glslc.exe"
-      - "C:/Program Files (x86)/sbin/glslc"
-      - "C:/Program Files (x86)/glslc.com"
-      - "C:/Program Files (x86)/glslc.exe"
-      - "C:/Program Files (x86)/glslc"
-      - "C:/Program Files/CMake/bin/glslc.com"
-      - "C:/Program Files/CMake/bin/glslc.exe"
-      - "C:/Program Files/CMake/bin/glslc"
-      - "C:/Program Files/CMake/sbin/glslc.com"
-      - "C:/Program Files/CMake/sbin/glslc.exe"
-      - "C:/Program Files/CMake/sbin/glslc"
-      - "C:/Program Files/CMake/glslc.com"
-      - "C:/Program Files/CMake/glslc.exe"
-      - "C:/Program Files/CMake/glslc"
-      - "C:/Program Files (x86)/3diStudio/bin/glslc.com"
-      - "C:/Program Files (x86)/3diStudio/bin/glslc.exe"
-      - "C:/Program Files (x86)/3diStudio/bin/glslc"
-      - "C:/Program Files (x86)/3diStudio/sbin/glslc.com"
-      - "C:/Program Files (x86)/3diStudio/sbin/glslc.exe"
-      - "C:/Program Files (x86)/3diStudio/sbin/glslc"
-      - "C:/Program Files (x86)/3diStudio/glslc.com"
-      - "C:/Program Files (x86)/3diStudio/glslc.exe"
-      - "C:/Program Files (x86)/3diStudio/glslc"
-    found: false
+      - "C:/VulkanSDK/1.4.341.1/bin/glslc.com"
+    found: "C:/VulkanSDK/1.4.341.1/Bin/glslc.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.341.1\\Bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
@@ -1472,6 +1685,16 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\w64devkit\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\pc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\pc\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\pc\\.dotnet\\tools"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Comate\\bin"
+        - "c:\\Users\\pc\\.comate\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/3diStudio"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1497,7 +1720,8 @@ events:
     names:
       - "glslangValidator"
     candidate_directories:
-      - "/bin/"
+      - "C:/VulkanSDK/1.4.341.1/bin/"
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files/Oculus/Support/oculus-runtime/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
@@ -1521,6 +1745,16 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/w64devkit/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/pc/AppData/Roaming/npm/"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/pc/.dotnet/tools/"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1534,117 +1768,11 @@ events:
       - "C:/Program Files (x86)/3diStudio/sbin/"
       - "C:/Program Files (x86)/3diStudio/"
     searched_directories:
-      - "/bin/glslangValidator.com"
-      - "/bin/glslangValidator.exe"
-      - "/bin/glslangValidator"
-      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/glslangValidator.com"
-      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/glslangValidator.exe"
-      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/glslangValidator"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/glslangValidator.com"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/glslangValidator.exe"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/glslangValidator"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/glslangValidator.com"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/glslangValidator.exe"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/glslangValidator"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/glslangValidator.com"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/glslangValidator.exe"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/glslangValidator"
-      - "C:/Windows/System32/glslangValidator.com"
-      - "C:/Windows/System32/glslangValidator.exe"
-      - "C:/Windows/System32/glslangValidator"
-      - "C:/Windows/glslangValidator.com"
-      - "C:/Windows/glslangValidator.exe"
-      - "C:/Windows/glslangValidator"
-      - "C:/Windows/System32/wbem/glslangValidator.com"
-      - "C:/Windows/System32/wbem/glslangValidator.exe"
-      - "C:/Windows/System32/wbem/glslangValidator"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator"
-      - "C:/Windows/System32/OpenSSH/glslangValidator.com"
-      - "C:/Windows/System32/OpenSSH/glslangValidator.exe"
-      - "C:/Windows/System32/OpenSSH/glslangValidator"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator"
-      - "C:/Program Files/Common Files/Autodesk Shared/glslangValidator.com"
-      - "C:/Program Files/Common Files/Autodesk Shared/glslangValidator.exe"
-      - "C:/Program Files/Common Files/Autodesk Shared/glslangValidator"
-      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/glslangValidator.com"
-      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/glslangValidator.exe"
-      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/glslangValidator"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/glslangValidator.com"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/glslangValidator.exe"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/glslangValidator"
-      - "C:/Program Files/dotnet/glslangValidator.com"
-      - "C:/Program Files/dotnet/glslangValidator.exe"
-      - "C:/Program Files/dotnet/glslangValidator"
-      - "C:/Program Files/nodejs/glslangValidator.com"
-      - "C:/Program Files/nodejs/glslangValidator.exe"
-      - "C:/Program Files/nodejs/glslangValidator"
-      - "C:/ffmpeg/bin/glslangValidator.com"
-      - "C:/ffmpeg/bin/glslangValidator.exe"
-      - "C:/ffmpeg/bin/glslangValidator"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslangValidator.com"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslangValidator.exe"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslangValidator"
-      - "C:/Program Files (x86)/QuickTime/QTSystem/glslangValidator.com"
-      - "C:/Program Files (x86)/QuickTime/QTSystem/glslangValidator.exe"
-      - "C:/Program Files (x86)/QuickTime/QTSystem/glslangValidator"
-      - "C:/Program Files/Git/cmd/glslangValidator.com"
-      - "C:/Program Files/Git/cmd/glslangValidator.exe"
-      - "C:/Program Files/Git/cmd/glslangValidator"
-      - "C:/Program Files/GitHub CLI/glslangValidator.com"
-      - "C:/Program Files/GitHub CLI/glslangValidator.exe"
-      - "C:/Program Files/GitHub CLI/glslangValidator"
-      - "C:/Program Files/CMake/bin/glslangValidator.com"
-      - "C:/Program Files/CMake/bin/glslangValidator.exe"
-      - "C:/Program Files/CMake/bin/glslangValidator"
-      - "C:/w64devkit/bin/glslangValidator.com"
-      - "C:/w64devkit/bin/glslangValidator.exe"
-      - "C:/w64devkit/bin/glslangValidator"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator"
-      - "C:/Program Files/bin/glslangValidator.com"
-      - "C:/Program Files/bin/glslangValidator.exe"
-      - "C:/Program Files/bin/glslangValidator"
-      - "C:/Program Files/sbin/glslangValidator.com"
-      - "C:/Program Files/sbin/glslangValidator.exe"
-      - "C:/Program Files/sbin/glslangValidator"
-      - "C:/Program Files/glslangValidator.com"
-      - "C:/Program Files/glslangValidator.exe"
-      - "C:/Program Files/glslangValidator"
-      - "C:/Program Files (x86)/bin/glslangValidator.com"
-      - "C:/Program Files (x86)/bin/glslangValidator.exe"
-      - "C:/Program Files (x86)/bin/glslangValidator"
-      - "C:/Program Files (x86)/sbin/glslangValidator.com"
-      - "C:/Program Files (x86)/sbin/glslangValidator.exe"
-      - "C:/Program Files (x86)/sbin/glslangValidator"
-      - "C:/Program Files (x86)/glslangValidator.com"
-      - "C:/Program Files (x86)/glslangValidator.exe"
-      - "C:/Program Files (x86)/glslangValidator"
-      - "C:/Program Files/CMake/bin/glslangValidator.com"
-      - "C:/Program Files/CMake/bin/glslangValidator.exe"
-      - "C:/Program Files/CMake/bin/glslangValidator"
-      - "C:/Program Files/CMake/sbin/glslangValidator.com"
-      - "C:/Program Files/CMake/sbin/glslangValidator.exe"
-      - "C:/Program Files/CMake/sbin/glslangValidator"
-      - "C:/Program Files/CMake/glslangValidator.com"
-      - "C:/Program Files/CMake/glslangValidator.exe"
-      - "C:/Program Files/CMake/glslangValidator"
-      - "C:/Program Files (x86)/3diStudio/bin/glslangValidator.com"
-      - "C:/Program Files (x86)/3diStudio/bin/glslangValidator.exe"
-      - "C:/Program Files (x86)/3diStudio/bin/glslangValidator"
-      - "C:/Program Files (x86)/3diStudio/sbin/glslangValidator.com"
-      - "C:/Program Files (x86)/3diStudio/sbin/glslangValidator.exe"
-      - "C:/Program Files (x86)/3diStudio/sbin/glslangValidator"
-      - "C:/Program Files (x86)/3diStudio/glslangValidator.com"
-      - "C:/Program Files (x86)/3diStudio/glslangValidator.exe"
-      - "C:/Program Files (x86)/3diStudio/glslangValidator"
-    found: false
+      - "C:/VulkanSDK/1.4.341.1/bin/glslangValidator.com"
+    found: "C:/VulkanSDK/1.4.341.1/Bin/glslangValidator.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.341.1\\Bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
@@ -1673,6 +1801,16 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\w64devkit\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\pc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\pc\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\pc\\.dotnet\\tools"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Comate\\bin"
+        - "c:\\Users\\pc\\.comate\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/3diStudio"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1690,8 +1828,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-187au1"
-      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-187au1"
+      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-kq6rxu"
+      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-kq6rxu"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1701,35 +1839,35 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-187au1'
+        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-kq6rxu'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c47ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7b5ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 3/18/2026 3:33:27 AM.
+        Build started 3/18/2026 7:14:39 AM.
         
-        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-187au1\\cmTC_c47ed.vcxproj" on node 1 (default targets).
+        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq6rxu\\cmTC_7b5ff.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c47ed.dir\\Debug\\".
+          Creating directory "cmTC_7b5ff.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-187au1\\Debug\\".
-          Creating directory "cmTC_c47ed.dir\\Debug\\cmTC_c47ed.tlog\\".
+          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq6rxu\\Debug\\".
+          Creating directory "cmTC_7b5ff.dir\\Debug\\cmTC_7b5ff.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c47ed.dir\\Debug\\cmTC_c47ed.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c47ed.dir\\Debug\\cmTC_c47ed.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7b5ff.dir\\Debug\\cmTC_7b5ff.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7b5ff.dir\\Debug\\cmTC_7b5ff.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c47ed.dir\\Debug\\\\" /Fd"cmTC_c47ed.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-187au1\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_7b5ff.dir\\Debug\\\\" /Fd"cmTC_7b5ff.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq6rxu\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35225 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c47ed.dir\\Debug\\\\" /Fd"cmTC_c47ed.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-187au1\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_7b5ff.dir\\Debug\\\\" /Fd"cmTC_7b5ff.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq6rxu\\src.c"
           src.c
-        E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-187au1\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-187au1\\cmTC_c47ed.vcxproj]
-        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-187au1\\cmTC_c47ed.vcxproj" (default targets) -- FAILED.
+        E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq6rxu\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq6rxu\\cmTC_7b5ff.vcxproj]
+        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq6rxu\\cmTC_7b5ff.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-187au1\\cmTC_c47ed.vcxproj" (default target) (1) ->
+        "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq6rxu\\cmTC_7b5ff.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-187au1\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-187au1\\cmTC_c47ed.vcxproj]
+          E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq6rxu\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq6rxu\\cmTC_7b5ff.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -1747,8 +1885,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-udc15h"
-      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-udc15h"
+      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-4lu44d"
+      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-4lu44d"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1758,42 +1896,42 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-udc15h'
+        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-4lu44d'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c5fe8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6a4b0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 3/18/2026 3:33:28 AM.
+        Build started 3/18/2026 7:14:39 AM.
         
-        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udc15h\\cmTC_c5fe8.vcxproj" on node 1 (default targets).
+        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4lu44d\\cmTC_6a4b0.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c5fe8.dir\\Debug\\".
+          Creating directory "cmTC_6a4b0.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udc15h\\Debug\\".
-          Creating directory "cmTC_c5fe8.dir\\Debug\\cmTC_c5fe8.tlog\\".
+          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4lu44d\\Debug\\".
+          Creating directory "cmTC_6a4b0.dir\\Debug\\cmTC_6a4b0.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c5fe8.dir\\Debug\\cmTC_c5fe8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c5fe8.dir\\Debug\\cmTC_c5fe8.tlog\\unsuccessfulbuild".
+          Creating "cmTC_6a4b0.dir\\Debug\\cmTC_6a4b0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6a4b0.dir\\Debug\\cmTC_6a4b0.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c5fe8.dir\\Debug\\\\" /Fd"cmTC_c5fe8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udc15h\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6a4b0.dir\\Debug\\\\" /Fd"cmTC_6a4b0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4lu44d\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35225 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c5fe8.dir\\Debug\\\\" /Fd"cmTC_c5fe8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udc15h\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6a4b0.dir\\Debug\\\\" /Fd"cmTC_6a4b0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4lu44d\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udc15h\\Debug\\cmTC_c5fe8.exe" /INCREMENTAL /ILK:"cmTC_c5fe8.dir\\Debug\\cmTC_c5fe8.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-udc15h/Debug/cmTC_c5fe8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-udc15h/Debug/cmTC_c5fe8.lib" /MACHINE:X64  /machine:x64 cmTC_c5fe8.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udc15h\\cmTC_c5fe8.vcxproj]
-        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udc15h\\cmTC_c5fe8.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4lu44d\\Debug\\cmTC_6a4b0.exe" /INCREMENTAL /ILK:"cmTC_6a4b0.dir\\Debug\\cmTC_6a4b0.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-4lu44d/Debug/cmTC_6a4b0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-4lu44d/Debug/cmTC_6a4b0.lib" /MACHINE:X64  /machine:x64 cmTC_6a4b0.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4lu44d\\cmTC_6a4b0.vcxproj]
+        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4lu44d\\cmTC_6a4b0.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udc15h\\cmTC_c5fe8.vcxproj" (default target) (1) ->
+        "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4lu44d\\cmTC_6a4b0.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-udc15h\\cmTC_c5fe8.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4lu44d\\cmTC_6a4b0.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.28
+        Time Elapsed 00:00:00.27
         
       exitCode: 1
   -
@@ -1806,8 +1944,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-vyrjzl"
-      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-vyrjzl"
+      source: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-zfdal1"
+      binary: "E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-zfdal1"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1817,37 +1955,37 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-vyrjzl'
+        Change Dir: 'E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-zfdal1'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1c7f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6fcca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 3/18/2026 3:33:28 AM.
+        Build started 3/18/2026 7:14:39 AM.
         
-        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyrjzl\\cmTC_1c7f7.vcxproj" on node 1 (default targets).
+        Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdal1\\cmTC_6fcca.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_1c7f7.dir\\Debug\\".
+          Creating directory "cmTC_6fcca.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyrjzl\\Debug\\".
-          Creating directory "cmTC_1c7f7.dir\\Debug\\cmTC_1c7f7.tlog\\".
+          Creating directory "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdal1\\Debug\\".
+          Creating directory "cmTC_6fcca.dir\\Debug\\cmTC_6fcca.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_1c7f7.dir\\Debug\\cmTC_1c7f7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_1c7f7.dir\\Debug\\cmTC_1c7f7.tlog\\unsuccessfulbuild".
+          Creating "cmTC_6fcca.dir\\Debug\\cmTC_6fcca.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6fcca.dir\\Debug\\cmTC_6fcca.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1c7f7.dir\\Debug\\\\" /Fd"cmTC_1c7f7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyrjzl\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6fcca.dir\\Debug\\\\" /Fd"cmTC_6fcca.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdal1\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35225 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1c7f7.dir\\Debug\\\\" /Fd"cmTC_1c7f7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyrjzl\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6fcca.dir\\Debug\\\\" /Fd"cmTC_6fcca.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdal1\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyrjzl\\Debug\\cmTC_1c7f7.exe" /INCREMENTAL /ILK:"cmTC_1c7f7.dir\\Debug\\cmTC_1c7f7.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-vyrjzl/Debug/cmTC_1c7f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-vyrjzl/Debug/cmTC_1c7f7.lib" /MACHINE:X64  /machine:x64 cmTC_1c7f7.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyrjzl\\cmTC_1c7f7.vcxproj]
-        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyrjzl\\cmTC_1c7f7.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdal1\\Debug\\cmTC_6fcca.exe" /INCREMENTAL /ILK:"cmTC_6fcca.dir\\Debug\\cmTC_6fcca.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-zfdal1/Debug/cmTC_6fcca.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/AIProject/3diStudio/build/CMakeFiles/CMakeScratch/TryCompile-zfdal1/Debug/cmTC_6fcca.lib" /MACHINE:X64  /machine:x64 cmTC_6fcca.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdal1\\cmTC_6fcca.vcxproj]
+        Done Building Project "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdal1\\cmTC_6fcca.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyrjzl\\cmTC_1c7f7.vcxproj" (default target) (1) ->
+        "E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdal1\\cmTC_6fcca.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyrjzl\\cmTC_1c7f7.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [E:\\AIProject\\3diStudio\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfdal1\\cmTC_6fcca.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -1875,6 +2013,7 @@ events:
     names:
       - "doxygen"
     candidate_directories:
+      - "C:/VulkanSDK/1.4.341.1/Bin/"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
       - "C:/Program Files/Oculus/Support/oculus-runtime/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
@@ -1898,6 +2037,16 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/w64devkit/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/pc/AppData/Roaming/npm/"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/pc/.dotnet/tools/"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1916,6 +2065,9 @@ events:
       - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
       - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
     searched_directories:
+      - "C:/VulkanSDK/1.4.341.1/Bin/doxygen.com"
+      - "C:/VulkanSDK/1.4.341.1/Bin/doxygen.exe"
+      - "C:/VulkanSDK/1.4.341.1/Bin/doxygen"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/doxygen.com"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/doxygen.exe"
       - "C:/Program Files (x86)/VMware/VMware Workstation/bin/doxygen"
@@ -1985,6 +2137,36 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/doxygen.com"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/doxygen.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/Scripts/doxygen"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/doxygen.com"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/doxygen.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Python/Python313/doxygen"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/doxygen.com"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/doxygen.exe"
+      - "C:/Users/pc/AppData/Local/Microsoft/WindowsApps/doxygen"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/doxygen.com"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/doxygen.exe"
+      - "C:/Users/pc/AppData/Local/GitHubDesktop/bin/doxygen"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/doxygen.com"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/doxygen.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Microsoft VS Code/bin/doxygen"
+      - "C:/Users/pc/AppData/Roaming/npm/doxygen.com"
+      - "C:/Users/pc/AppData/Roaming/npm/doxygen.exe"
+      - "C:/Users/pc/AppData/Roaming/npm/doxygen"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/doxygen.com"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/doxygen.exe"
+      - "C:/Users/pc/AppData/Local/Muse Hub/lib/doxygen"
+      - "C:/Users/pc/.dotnet/tools/doxygen.com"
+      - "C:/Users/pc/.dotnet/tools/doxygen.exe"
+      - "C:/Users/pc/.dotnet/tools/doxygen"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/doxygen.com"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/doxygen.exe"
+      - "C:/Users/pc/AppData/Local/Programs/Comate/bin/doxygen"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/doxygen.com"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/doxygen.exe"
+      - "C:/Users/pc/.comate/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/doxygen"
       - "C:/Program Files/bin/doxygen.com"
       - "C:/Program Files/bin/doxygen.exe"
       - "C:/Program Files/bin/doxygen"
@@ -2039,6 +2221,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.341.1\\Bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
@@ -2067,6 +2250,16 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\w64devkit\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\pc\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pc\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\pc\\AppData\\Roaming\\npm"
+        - "C:\\Users\\pc\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\pc\\.dotnet\\tools"
+        - "C:\\Users\\pc\\AppData\\Local\\Programs\\Comate\\bin"
+        - "c:\\Users\\pc\\.comate\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/3diStudio"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"

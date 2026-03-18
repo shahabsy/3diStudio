@@ -1,3 +1,5 @@
 E:\AIProject\3diStudio\src\app\VulkanApp.cpp;E:\AIProject\3diStudio\build\3diStudio.dir\Debug\VulkanApp.obj
 E:\AIProject\3diStudio\src\main.cpp;E:\AIProject\3diStudio\build\3diStudio.dir\Debug\main.obj
+E:\AIProject\3diStudio\src\renderer\Swapchain.cpp;E:\AIProject\3diStudio\build\3diStudio.dir\Debug\Swapchain.obj
+E:\AIProject\3diStudio\src\renderer\VulkanContext.cpp;E:\AIProject\3diStudio\build\3diStudio.dir\Debug\VulkanContext.obj
 E:\AIProject\3diStudio\src\window\Window.cpp;E:\AIProject\3diStudio\build\3diStudio.dir\Debug\Window.obj

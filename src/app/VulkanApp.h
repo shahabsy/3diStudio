@@ -1,23 +1,15 @@
 #pragma once
-#include <vulkan/vulkan.h>
 #include "window/Window.h"
+#include <renderer/VulkanContext.h>
 
 class VulkanApp {
     public:
-        void init(Window& window);
-        void cleanup();
+        void run();
     private:
-        void createInstance();
-        void createSurface(Window& window);
-        void pickPhysicalDevice();
-        void createLogicalDevice();
-
-        VkInstance instance = VK_NULL_HANDLE;
-        VkSurfaceKHR surface = VK_NULL_HANDLE;
-
-        VkPhysicalDevice physicalDevice = VK_NULL_HANDLE;
-        VkDevice device = VK_NULL_HANDLE;
-
-        VkQueue graphicsQueue = VK_NULL_HANDLE;
-        uint32_t graphicsQueueFamilyIndex = 0;
+        void init();
+        void loop();
+        void cleanup();
+        
+        Window window;
+        VulkanContext context;
 };

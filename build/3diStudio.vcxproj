@@ -366,6 +366,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="E:\AIProject\3diStudio\src\app\VulkanApp.cpp" />
     <ClCompile Include="E:\AIProject\3diStudio\src\main.cpp" />
+    <ClCompile Include="E:\AIProject\3diStudio\src\renderer\Swapchain.cpp" />
+    <ClCompile Include="E:\AIProject\3diStudio\src\renderer\VulkanContext.cpp" />
     <ClCompile Include="E:\AIProject\3diStudio\src\window\Window.cpp" />
   </ItemGroup>
   <ItemGroup />

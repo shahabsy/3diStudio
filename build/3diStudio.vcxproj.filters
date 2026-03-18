@@ -7,6 +7,12 @@
     <ClCompile Include="E:\AIProject\3diStudio\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E:\AIProject\3diStudio\src\renderer\Swapchain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\AIProject\3diStudio\src\renderer\VulkanContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="E:\AIProject\3diStudio\src\window\Window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

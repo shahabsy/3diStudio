@@ -2,6 +2,9 @@
 #include <stdexcept>
 
 void Window::create(int width, int height, const char* title) {
+    this->width = width;
+    this->height = height;
+    
     if (!glfwInit())
         throw std::runtime_error("Failed to initialize GLFW");
     
