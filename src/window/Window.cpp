@@ -1,5 +1,20 @@
 #include "Window.h"
 #include <stdexcept>
+#include <iostream>
+
+// Forward declaration of glfwCreateWindow
+//class VulkanContext;
+
+static void framebufferResizeCallback(GLFWwindow* window, int width, int height) {
+    void* userPtr = glfwGetWindowUserPointer(window);
+    if (userPtr) {
+        auto* win = static_cast<Window*>(userPtr);
+        win->setFrameBufferResized(true);
+        win->setWidth(width);
+        win->setHeight(height);
+        std::cout << "[GLFW] Framebuffer resized!" << std::endl;
+    }
+}
 
 void Window::create(int width, int height, const char* title) {
     this->width = width;
@@ -15,6 +30,8 @@ void Window::create(int width, int height, const char* title) {
     if (!window) {
         throw std::runtime_error("Failed to create window");
     }
+    // register the resizze callback
+    glfwSetFramebufferSizeCallback(window, framebufferResizeCallback);
 }
 
 void Window::destroy() {

@@ -37,11 +37,63 @@ Editor Integration     Required	                 Optional
 Physics	               Minimal	                 Extensive
 Asset Pipeline	       Direct Loading	         Cooked Data
 
-Add build process here
-Build Steps
-powershell
+1. Build System
+CMake 3.16+ configuration
+C++17 standard
+Visual Studio 2022 (x64) support
+Vulkan SDK 1.4.341.1 integration
+GLFW and GLM libraries
 
-Insert
+2. Window Management
+GLFW-based window creation (1280x720 default)
+Window dimension tracking (getWidth(), getHeight())
+Window resize detection with callback
+Proper cleanup on exit
+
+3. Vulkan Core
+Instance creation with GLFW extensions
+Surface creation (Win32/Vulkan bridge)
+Physical device selection (GPU enumeration)
+Logical device creation with graphics queue
+Queue family detection (graphics + presentation support)
+VK_KHR_SWAPCHAIN_EXTENSION enabled
+
+4. Swapchain (Production-Grade)
+SwapChainSupportDetails struct for hardware queries
+querySwapChainSupport() - queries GPU capabilities
+chooseSurfaceFormat() - prefers SRGB format
+choosePresentMode() - prefers MAILBOX (triple buffering)
+chooseExtent() - clamped to min/max capabilities
+Triple buffering support (minImageCount + 1)
+
+5. Rendering Resources
+Image views for all swapchain images
+Render pass with proper layout transitions
+Framebuffers (one per swapchain image)
+All handles initialized to VK_NULL_HANDLE
+
+6. Window Resize Handling
+framebufferResized flag
+recreateSwapChain() method
+Resize callback registered with GLFW
+
+7. Render Loop
+Event polling
+Frame rendering call
+Resize detection integration
+Technology Stack
+Component	   Technology
+Language	      C++17
+Build System	CMake 3.16+
+Graphics API	Vulkan 1.2
+Window Library	GLFW 3.4+ (built from source)
+Math Library	GLM 1.0+
+IDE	         Visual Studio 2022
+Platform	      Windows 11 (x64)
+
+Build Steps
+
+powershell
 
 Copy
 # Clone repository (when applicable)

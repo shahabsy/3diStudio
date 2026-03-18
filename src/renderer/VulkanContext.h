@@ -1,27 +1,51 @@
 #pragma once
 #include <vulkan/vulkan.h>
-#include <vulkan/vulkan_core.h>
 #include <vector>
+#include <algorithm>
 #include "window/Window.h"
 
+struct SwapChainSupportDetails {
+    VkSurfaceCapabilitiesKHR capabilities; // Basic surface capabilities
+    std::vector<VkSurfaceFormatKHR> formats; // Available color formats and color spaces
+    std::vector<VkPresentModeKHR> presentModes; // Available presentation modes
+};
 
 class VulkanContext {
     public:
         void init(Window* window);
         void cleanup();
+        bool wasFrameBufferResized() { return framebufferResized; }
+        void clearFrameBuffersResized() { framebufferResized = false; }
+        void render();
+        // set by the window resize callback to indicate spawchain recreation is needed
+        bool framebufferResized = false;
     
     private:
-        bool createInstance();
+        void createInstance();
         void createSurface(Window* window);
         void pickPhysicalDevice();
         void createLogicalDevice();
+
+        uint32_t findQueueFamily();
+
+        SwapChainSupportDetails querySwapChainSupport(VkPhysicalDevice device);
+
+        VkSurfaceFormatKHR chooseSurfaceFormat(const std::vector<VkSurfaceFormatKHR>& formats);
+        VkPresentModeKHR choosePresentMode(const std::vector<VkPresentModeKHR>& modes);
+        VkExtent2D chooseExtent(const VkSurfaceCapabilitiesKHR& capabilities);
+
+
 
         void createSwapChain();
         void createImageViews();
         void createRenderPass();
         void createFramebuffers();
 
-        uint32_t findQueueFamily();
+        void cleanupSwapChain();
+
+        void recreateSwapChain();
+
+        
 
         VkInstance instance = VK_NULL_HANDLE;
         VkSurfaceKHR surface = VK_NULL_HANDLE;
@@ -37,7 +61,6 @@ class VulkanContext {
         std::vector<VkImage> swapchainImages;
         VkFormat swapchainImageFormat;
         VkExtent2D swapchainExtent;
-
         std::vector<VkImageView> imageViews;
         
         VkRenderPass renderPass = VK_NULL_HANDLE;
