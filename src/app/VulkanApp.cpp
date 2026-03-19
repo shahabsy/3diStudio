@@ -12,7 +12,6 @@ void VulkanApp::init() {
 
     // Set user pointer and register callback
     glfwSetWindowUserPointer(window.getNative(), &context);
-    //glfwSetFramebufferSizeCallback(window.getNative(), framebufferResizeCallback);
     context.init(&window);
 }
 
