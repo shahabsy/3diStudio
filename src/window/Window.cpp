@@ -9,10 +9,14 @@ static void framebufferResizeCallback(GLFWwindow* window, int width, int height)
     void* userPtr = glfwGetWindowUserPointer(window);
     if (userPtr) {
         auto* win = static_cast<Window*>(userPtr);
-        win->setFrameBufferResized(true);
-        win->setWidth(width);
-        win->setHeight(height);
-        std::cout << "[GLFW] Framebuffer resized!" << std::endl;
+        
+        // Only trigger resize if size actually changed
+        if (win->getWidth() != width || win->getHeight() != height) {
+            win->setFrameBufferResized(true);
+            win->setWidth(width);
+            win->setHeight(height);
+            std::cout << "[GLFW] Framebuffer resized to " << width << "x" << height << "!" << std::endl;
+        }
     }
 }
 

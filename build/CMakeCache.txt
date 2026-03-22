@@ -297,6 +297,9 @@ GLFW_SOURCE_DIR:STATIC=E:/AIProject/3diStudio/glfw
 //Force use of high-performance GPU on hybrid systems
 GLFW_USE_HYBRID_HPG:BOOL=OFF
 
+//Path to a program.
+GLSLANG_VALIDATOR:FILEPATH=C:/VulkanSDK/1.4.341.1/Bin/glslangValidator.exe
+
 //Use MSVC runtime library DLL
 USE_MSVC_RUNTIME_LIBRARY_DLL:BOOL=ON
 

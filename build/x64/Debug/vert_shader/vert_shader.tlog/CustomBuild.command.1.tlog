@@ -1,0 +1,28 @@
+^E:\AIPROJECT\3DISTUDIO\BUILD\CMAKEFILES\A5BE7B8623A73896F9DF932E0A576798\VERT.SPV.RULE
+setlocal
+C:\VulkanSDK\1.4.341.1\Bin\glslangValidator.exe -V E:/AIProject/3diStudio/src/shaders/shader.vert -o E:/AIProject/3diStudio/src/shaders/vert.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJECT\3DISTUDIO\BUILD\CMAKEFILES\E8724033942FC0B73F0CE750EF64C86B\VERT_SHADER.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJECT\3DISTUDIO\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/AIProject/3diStudio -BE:/AIProject/3diStudio/build --check-stamp-file E:/AIProject/3diStudio/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

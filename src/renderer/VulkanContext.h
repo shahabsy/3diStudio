@@ -17,6 +17,9 @@ class VulkanContext {
         bool wasFrameBufferResized() { return framebufferResized; }
         void clearFrameBuffersResized() { framebufferResized = false; }
         void render();
+        void createShaders();
+        void createGraphicsPipeline();
+        void recreateSwapChain();
         // set by the window resize callback to indicate spawchain recreation is needed
         bool framebufferResized = false;
     
@@ -43,7 +46,12 @@ class VulkanContext {
 
         void cleanupSwapChain();
 
-        void recreateSwapChain();
+        // Shader module creation helper
+        VkShaderModule createShaderModule(const std::vector<char>& code);
+
+        // Shader handles
+        VkShaderModule vertShaderModule = VK_NULL_HANDLE;
+        VkShaderModule fragShaderModule = VK_NULL_HANDLE;
 
         
 
@@ -65,4 +73,15 @@ class VulkanContext {
         
         VkRenderPass renderPass = VK_NULL_HANDLE;
         std::vector<VkFramebuffer> framebuffers;
+
+        // Graphics pipeline
+        VkPipelineLayout pipelineLayout = VK_NULL_HANDLE;
+        VkPipeline graphicsPipeline = VK_NULL_HANDLE;
+
+        // Command buffers
+        VkCommandPool commandPool = VK_NULL_HANDLE;
+        std::vector<VkCommandBuffer> commandBuffers;
+
+        void createCommandPool();
+        void createCommandBuffers();
 };

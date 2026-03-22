@@ -1,4 +1,6 @@
 E:/AIProject/3diStudio/build/CMakeFiles/3diStudio.dir
+E:/AIProject/3diStudio/build/CMakeFiles/vert_shader.dir
+E:/AIProject/3diStudio/build/CMakeFiles/frag_shader.dir
 E:/AIProject/3diStudio/build/CMakeFiles/INSTALL.dir
 E:/AIProject/3diStudio/build/CMakeFiles/ALL_BUILD.dir
 E:/AIProject/3diStudio/build/CMakeFiles/ZERO_CHECK.dir

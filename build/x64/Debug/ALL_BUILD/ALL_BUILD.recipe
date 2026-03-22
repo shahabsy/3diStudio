@@ -5,6 +5,12 @@
       <FullPath>E:\AIProject\3diStudio\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>E:\AIProject\3diStudio\build\x64\Debug\frag_shader</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\AIProject\3diStudio\build\x64\Debug\vert_shader</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>E:\AIProject\3diStudio\build\Debug\3diStudio.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
