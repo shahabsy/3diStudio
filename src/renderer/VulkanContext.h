@@ -2,12 +2,20 @@
 #include <vulkan/vulkan.h>
 #include <vector>
 #include <algorithm>
+#include <cstring>
 #include "window/Window.h"
+#include <glm/glm.hpp>
 
 struct SwapChainSupportDetails {
     VkSurfaceCapabilitiesKHR capabilities; // Basic surface capabilities
     std::vector<VkSurfaceFormatKHR> formats; // Available color formats and color spaces
     std::vector<VkPresentModeKHR> presentModes; // Available presentation modes
+};
+
+// Vertex data for triangle 
+struct Vertex {
+    glm::vec2 position;
+    glm::vec3 color;
 };
 
 class VulkanContext {
@@ -53,8 +61,6 @@ class VulkanContext {
         VkShaderModule vertShaderModule = VK_NULL_HANDLE;
         VkShaderModule fragShaderModule = VK_NULL_HANDLE;
 
-        
-
         VkInstance instance = VK_NULL_HANDLE;
         VkSurfaceKHR surface = VK_NULL_HANDLE;
         VkPhysicalDevice physicalDevice = VK_NULL_HANDLE;
@@ -82,6 +88,16 @@ class VulkanContext {
         VkCommandPool commandPool = VK_NULL_HANDLE;
         std::vector<VkCommandBuffer> commandBuffers;
 
+        // vertex buffer
+        VkBuffer vertexBuffer = VK_NULL_HANDLE;
+        VkDeviceMemory vertexBufferMemory = VK_NULL_HANDLE;
+        std::vector<Vertex> vertices;
+
         void createCommandPool();
         void createCommandBuffers();
+
+        void createVertexData();
+        void createVertexBuffer();
+        uint32_t findMemoryType(uint32_t typeBits, VkMemoryPropertyFlags properties);
+        void copyBuffer(VkBuffer srcBuffer, VkBuffer dstBuffer, VkDeviceSize size);
 };

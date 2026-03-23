@@ -17,6 +17,7 @@ void VulkanApp::init() {
 
 void VulkanApp::loop() {
     std::cout << "[VK LOOP] Entering main loop..." << std::endl;
+    int frameCount = 0;
     while (!window.shouldClose()) {
         try {
             window.pollEvents();
@@ -28,12 +29,16 @@ void VulkanApp::loop() {
             }
             
             context.render();
+            frameCount++;
+            if (frameCount % 60 == 0) {
+                std::cout << "[VK LOOP] Frame " << frameCount << std::endl;
+            }
         } catch (const std::exception &e) {
             std::cerr << "Frame Error: " << e.what() << std::endl;
             break;
         }
     }
-    std::cout << "[VK LOOP] Exiting main loop..." << std::endl;
+    std::cout << "[VK LOOP] Exiting main loop after " << frameCount << " frames" << std::endl;
 }
 
 void VulkanApp::cleanup() {

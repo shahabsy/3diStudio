@@ -33,8 +33,12 @@ void VulkanContext::init(Window* window) {
 
     createGraphicsPipeline();
 
+    // Command pool must be created BEFORE vertex buffer (copyBuffer needs it)
     createCommandPool();
     createCommandBuffers();
+
+    createVertexData();
+    createVertexBuffer();
 
     std::cout << "[INIT] vulkan initialized successfully\n";
 }
@@ -42,6 +46,13 @@ void VulkanContext::init(Window* window) {
 void VulkanContext::cleanup() {
     // cleanup swapchain resources frist
     cleanupSwapChain();
+
+    if (vertexBuffer != VK_NULL_HANDLE) {
+        vkDestroyBuffer(device, vertexBuffer, nullptr);
+    }
+    if (vertexBufferMemory != VK_NULL_HANDLE) {
+        vkFreeMemory(device, vertexBufferMemory, nullptr);
+    }
 
     // destroy command buffers and pool
     if (commandPool != VK_NULL_HANDLE) {
@@ -362,13 +373,32 @@ void VulkanContext::createGraphicsPipeline() {
     // Shader stages array
     VkPipelineShaderStageCreateInfo shaderStages[] = {vertShaderStageInfo, fragShaderStageInfo};
 
+    // Vertex input - vertex data format
+    VkVertexInputBindingDescription bindingDescription = {};
+    bindingDescription.binding = 0;
+    bindingDescription.stride = sizeof(Vertex);
+    bindingDescription.inputRate = VK_VERTEX_INPUT_RATE_VERTEX;
+
+    VkVertexInputAttributeDescription attributeDescription[2];
+    // position attribute
+    attributeDescription[0].binding = 0;
+    attributeDescription[0].location = 0;
+    attributeDescription[0].format = VK_FORMAT_R32G32B32A32_SFLOAT;
+    attributeDescription[0].offset = offsetof(Vertex, position);
+
+    // color attribute
+    attributeDescription[1].binding = 0;
+    attributeDescription[1].location = 1;
+    attributeDescription[1].format = VK_FORMAT_R32G32B32A32_SFLOAT;
+    attributeDescription[1].offset = offsetof(Vertex, color);
+
     // Vertex Input
     VkPipelineVertexInputStateCreateInfo vertexInputInfo{};
     vertexInputInfo.sType = VK_STRUCTURE_TYPE_PIPELINE_VERTEX_INPUT_STATE_CREATE_INFO;
-    vertexInputInfo.vertexBindingDescriptionCount = 0;
-    vertexInputInfo.pVertexBindingDescriptions = nullptr;
-    vertexInputInfo.vertexAttributeDescriptionCount = 0;
-    vertexInputInfo.pVertexAttributeDescriptions = nullptr;
+    vertexInputInfo.vertexBindingDescriptionCount = 1;
+    vertexInputInfo.pVertexBindingDescriptions = &bindingDescription;
+    vertexInputInfo.vertexAttributeDescriptionCount = 2;
+    vertexInputInfo.pVertexAttributeDescriptions = attributeDescription;
 
     // Input Assembly
     VkPipelineInputAssemblyStateCreateInfo inputAssembly{};
@@ -625,6 +655,11 @@ void VulkanContext::createRenderPass() {
     VkAttachmentReference colorAttachmentRef{};
     colorAttachmentRef.attachment = 0;
     colorAttachmentRef.layout = VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL;
+
+    VkAttachmentDescription colorAttachment{};
+    colorAttachment.format = swapchainImageFormat;
+    colorAttachment.samples = VK_SAMPLE_COUNT_1_BIT;
+
     // Single subpass description
     VkSubpassDescription subpass{};
     subpass.pipelineBindPoint = VK_PIPELINE_BIND_POINT_GRAPHICS;
@@ -772,7 +807,7 @@ void VulkanContext::render() {
     renderPassInfo.renderArea.extent = swapchainExtent;
 
     // Clear color attachment to black
-    VkClearValue clearColor = {{{0.0f, 0.0f, 0.2f, 1.0f}}};
+    VkClearValue clearColor = {{{0.0f, 0.0f, 0.0f, 1.0f}}};
     renderPassInfo.clearValueCount = 1;
     renderPassInfo.pClearValues = &clearColor;
 
@@ -780,6 +815,11 @@ void VulkanContext::render() {
 
     // 5. Draw a triangle
     vkCmdBindPipeline(commandBuffers[imageIndex], VK_PIPELINE_BIND_POINT_GRAPHICS, graphicsPipeline);
+
+    // Bind ver buffer
+    VkBuffer vertexBuffers[] = {vertexBuffer};
+    VkDeviceSize offsets[] = {0};
+    vkCmdBindVertexBuffers(commandBuffers[imageIndex], 0, 1, vertexBuffers, offsets);
 
     // 6. Drawn 3 vertices or triangle
     vkCmdDraw(commandBuffers[imageIndex], 3, 1, 0, 0);
@@ -825,3 +865,132 @@ void VulkanContext::render() {
     vkDeviceWaitIdle(device);
     */
 }
+
+void VulkanContext::createVertexData() {
+    vertices = {
+        // Position (x,y)    Color(r,g,b)
+        {{-0.5f, -0.5f}, {1.0f, 1.0f, 1.0f}},
+        {{0.5f, -0.5f}, {1.0f, 1.0f, 1.0f}},
+        {{0.0f,  0.5f}, {1.0f, 1.0f, 1.0f}}
+    };
+    std::cout << "triangle vertex data created: " << vertices.size() << std::endl;
+}
+
+uint32_t VulkanContext::findMemoryType(uint32_t typeFilter, VkMemoryPropertyFlags properties) {
+    VkPhysicalDeviceMemoryProperties memProperties;
+    vkGetPhysicalDeviceMemoryProperties(physicalDevice, &memProperties);
+
+    for (uint32_t i = 0; i < memProperties.memoryTypeCount; i++) {
+        if ((typeFilter & (1 << i)) &&
+            (memProperties.memoryTypes[i].propertyFlags & properties) == properties) {
+            return i;
+        }
+    }
+
+    throw std::runtime_error("Failed to find suitable memory type!");
+}
+
+void VulkanContext::copyBuffer(VkBuffer srcBuffer, VkBuffer dstBuffer, VkDeviceSize size) {
+    // Create a command buffer for the copy
+    VkCommandBufferAllocateInfo allocInfo{};
+    allocInfo.sType = VK_STRUCTURE_TYPE_COMMAND_BUFFER_ALLOCATE_INFO;
+    allocInfo.level = VK_COMMAND_BUFFER_LEVEL_PRIMARY;
+    allocInfo.commandPool = commandPool;
+    allocInfo.commandBufferCount = 1;
+
+    VkCommandBuffer commandBuffer;
+    vkAllocateCommandBuffers(device, &allocInfo, &commandBuffer);
+
+    VkCommandBufferBeginInfo beginInfo{};
+    beginInfo.sType = VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO;
+    beginInfo.flags = VK_COMMAND_BUFFER_USAGE_ONE_TIME_SUBMIT_BIT;
+
+    vkBeginCommandBuffer(commandBuffer, &beginInfo);
+
+    VkBufferCopy copyRegion{};
+    copyRegion.size = size;
+    vkCmdCopyBuffer(commandBuffer, srcBuffer, dstBuffer, 1, &copyRegion);
+
+    vkEndCommandBuffer(commandBuffer);
+
+    VkSubmitInfo submitInfo{};
+    submitInfo.sType = VK_STRUCTURE_TYPE_SUBMIT_INFO;
+    submitInfo.commandBufferCount = 1;
+    submitInfo.pCommandBuffers = &commandBuffer;
+
+    vkQueueSubmit(graphicsQueue, 1, &submitInfo, VK_NULL_HANDLE);
+    vkQueueWaitIdle(graphicsQueue);
+
+    vkFreeCommandBuffers(device, commandPool, 1, &commandBuffer);
+}
+
+void VulkanContext::createVertexBuffer() {
+    std::cout << "[VERTEX] Creating vertex buffer..." << std::endl;
+    VkDeviceSize bufferSize = sizeof(vertices[0]) * vertices.size();
+
+    VkBuffer stagingBuffer;
+    VkDeviceMemory stagingBufferMemory;
+    
+    VkBufferCreateInfo bufferInfo{};
+    bufferInfo.sType = VK_STRUCTURE_TYPE_BUFFER_CREATE_INFO;
+    bufferInfo.size = bufferSize;
+    bufferInfo.usage = VK_BUFFER_USAGE_TRANSFER_SRC_BIT;
+    bufferInfo.sharingMode = VK_SHARING_MODE_EXCLUSIVE;
+
+    if (vkCreateBuffer(device, &bufferInfo, nullptr, &stagingBuffer) != VK_SUCCESS) {
+        throw std::runtime_error("Failed to create staging buffer!");
+    }
+    std::cout << "[VERTEX] Staging buffer created" << std::endl;
+
+    VkMemoryRequirements memRequirements;
+    vkGetBufferMemoryRequirements(device, stagingBuffer, &memRequirements);
+
+    VkMemoryAllocateInfo allocInfo{};
+    allocInfo.sType = VK_STRUCTURE_TYPE_MEMORY_ALLOCATE_INFO;
+    allocInfo.allocationSize = memRequirements.size;
+    allocInfo.memoryTypeIndex = findMemoryType(memRequirements.memoryTypeBits, 
+                                               VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT | 
+                                               VK_MEMORY_PROPERTY_HOST_COHERENT_BIT);
+
+    if (vkAllocateMemory(device, &allocInfo, nullptr, &stagingBufferMemory) != VK_SUCCESS) {
+        throw std::runtime_error("Failed to allocate staging buffer memory!");
+    }
+
+    vkBindBufferMemory(device, stagingBuffer, stagingBufferMemory, 0);
+    std::cout << "[VERTEX] Staging buffer memory bound" << std::endl;
+
+    void* data;
+    vkMapMemory(device, stagingBufferMemory, 0, bufferSize, 0, &data);
+    memcpy(data, vertices.data(), bufferSize);
+    vkUnmapMemory(device, stagingBufferMemory);
+    std::cout << "[VERTEX] Data copied to staging buffer" << std::endl;
+
+    bufferInfo.usage = VK_BUFFER_USAGE_TRANSFER_DST_BIT | VK_BUFFER_USAGE_VERTEX_BUFFER_BIT;
+    
+    if (vkCreateBuffer(device, &bufferInfo, nullptr, &vertexBuffer) != VK_SUCCESS) {
+        throw std::runtime_error("Failed to create vertex buffer!");
+    }
+    std::cout << "[VERTEX] Vertex buffer created" << std::endl;
+
+    vkGetBufferMemoryRequirements(device, vertexBuffer, &memRequirements);
+
+    allocInfo.allocationSize = memRequirements.size;
+    allocInfo.memoryTypeIndex = findMemoryType(memRequirements.memoryTypeBits, 
+                                               VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT);
+
+    if (vkAllocateMemory(device, &allocInfo, nullptr, &vertexBufferMemory) != VK_SUCCESS) {
+        throw std::runtime_error("Failed to allocate vertex buffer memory!");
+    }
+    std::cout << "[VERTEX] Vertex buffer memory allocated" << std::endl;
+
+    vkBindBufferMemory(device, vertexBuffer, vertexBufferMemory, 0);
+
+    copyBuffer(stagingBuffer, vertexBuffer, bufferSize);
+    std::cout << "[VERTEX] Data copied to vertex buffer" << std::endl;
+
+    vkDestroyBuffer(device, stagingBuffer, nullptr);
+    vkFreeMemory(device, stagingBufferMemory, nullptr);
+
+    std::cout << "[VERTEX] Created vertex buffer\n";
+}
+

@@ -1,11 +1,8 @@
 #version 450
 
-// Input from vertex shader
-layout(location = 0) in vec3 fragColor;
-
-// Output to framebuffer (final fixel color)
+layout(location = 0) in vec3 inColor;
 layout(location = 0) out vec4 outColor;
 
 void main() {
-    outColor = vec4(fragColor, 1.0);
+    outColor = vec4(inColor, 1.0);
 }
